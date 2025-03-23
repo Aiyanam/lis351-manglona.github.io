@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif; /* Adding a serif font as default */
+}
+
+/* Background Color for Pages */
+body {
+    padding: 0;
+    margin: 0; /* Removes any margin from body */
+    background-color: #FFFFFF; /* Sets the background color to white */
+    color: #333; /* Default text color */
+}
+
+
+/* Bottom Section */
+.info-section {
+    background-color: white; /* Changed to white */
+    padding: 60px 10%;
+    text-align: center;
+    font-family: 'Merriweather', serif; /* A unique serif font */
+}
+
+.info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2F394D;
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    color: #2F394D;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(47, 57, 77, 0.7); /* Oxford Blue with transparency */
+}
+
+.contact-text {
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+}
+
+.contact-text p {
+    margin-bottom: 10px;
+}
+
+/* Unique Layout for Contact Bar */
+.contact-bar {
+    background-color: rgba(47, 57, 77, 0.7);
+    color: white;
+    padding: 40px 10%;
+    display: grid; /* Changed to grid for a unique layout */
+    grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+    gap: 20px;
+    text-align: left;
+}
+
+/* Contact Info (on the left) */
+.contact-bar .contact-info {
+    padding-right: 10px;
+}
+
+/* LinkedIn Section (in the center) */
+.contact-bar .linkedin {
+    text-align: center;
+}
+
+/* About Me Section (on the right) */
+.contact-bar .about-me {
+    padding-left: 10px;
+}
+
+/* Padding Around the Page Content */
+.container {
+    padding: 30px; /* Adds space around the content */
+}
